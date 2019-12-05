@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style-L.css">
+    <title>Step one</title>
+</head>
+<body>
+<header class="header container">
+    <h1 class="header__h1">Тестовое задание</h1>
+    <a href="stepOne.html" class="header__link"><img src="img/Grapheme.logo.svg" alt="GraphemeLogo"></a>
+</header>
+<div class="content container">
+    <div class="content__main">
+        <form action="#" class="myForm" method="post" target="_blank">
+            <span class="link first"><a href="#" class="content__link">Доставка</a></span>
+            <span class="link second"><a href="stepTwo.html" class="content__link">Оплата</a></span>
+            <h1 class="content__main__h1">Информация для доставки</h1>
+            <p class="content__main__consignee">Получатель</p>
+            <label>
+                <input type="text" name="name" class="form__content" placeholder="ФИО" required>
+            </label>
+            <br>
+            <p class="content__main__adress">Адрес</p>
+            <label>
+                <input type="text" name="city" class="form__content" placeholder="Город" required>
+            </label>
+            <br>
+            <label>
+                <input type="text" name="adress" class="form__content" placeholder="Адрес" required>
+            </label>
+            <br>
+            <label>
+                <select name="countries" class="form__content__select">
+                    <option value="">Страна</option>
+                    <option value="country">Ваша страна</option>
+                </select>
+            </label>
+            <label>
+                <input type="number" name="index" class="form__content__index" placeholder="Индекс" required>
+            </label>
+            <br>
+            <input type="submit" class="form__content__submit" value="Продолжить">
+        </form>
+    </div>
+</div>
+<script src="scripts/regexp.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style-L.css">
+    <link rel="stylesheet" href="styles/style-L-stepTwo.css">
+    <title>Step two</title>
+</head>
+<body>
+<header class="header container">
+    <h1 class="header__h1">Тестовое задание</h1>
+    <a href="stepOne.html" class="header__link"><img src="img/Grapheme.logo.svg" alt="GraphemeLogo"></a>
+</header>
+<div class="content container">
+    <div class="content__main">
+        <form action="#" class="myForm" method="post">
+            <span class="link first"><a href="stepOne.html" class="content__link">Доставка</a></span>
+            <span class="link second"><a href="#" class="content__link">Оплата</a></span>
+            <h1 class="content__main__h1">Оплата</h1>
+            <p class="content__main__consignee">Имя на карте</p>
+            <label>
+                <input type="text" name="cartName" class="form__content" placeholder="Konstantin Ivanov" required>
+            </label>
+            <br>
+            <p class="content__main__adress">Номер карты</p>
+            <label>
+                <input type="text" name="cartNumber" class="form__content" placeholder="XXXX XXXX XXXX XXXX XXXX"
+                       required>
+            </label>
+            <br>
+            <p class="content__main__date">Срок</p>
+            <p class="content__main__CVV">CVV</p>
+            <br>
+            <label>
+                <input type="text" class="content__form__date" placeholder="MM / YY" required>
+            </label>
+            <label>
+                <input type="text" class="content__form__CVV" required>
+            </label>
+            <br>
+            <input type="submit" class="form__content__submit" value="Оплатить">
+        </form>
+    </div>
+</div>
+<script src="scripts/regexp.js"></script>
+</body>
+</html>
